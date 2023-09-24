@@ -1,0 +1,18 @@
+#Jobs specific rules
+User-agent: *
+Disallow: /surplus-detail/*
+Disallow: /job-detail/*
+Disallow: /job-seeker-detail/*
+Disallow: /adminpanel
+# The following pages require registration and login
+Disallow: /user-panel
+# Futjan rules
+Disallow: /*?
+Allow: /info/*?*
+#Duplicated URLs
+User-agent: *
+Disallow: *.docx
+Disallow: *.pdf
+Disallow: /p/*/*/*/gallery
+#mediapartners Google instructions
+User-agent: Mediapartners-Google
